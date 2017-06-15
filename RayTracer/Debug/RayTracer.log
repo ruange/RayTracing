@@ -1,0 +1,24 @@
+﻿  openglrender.cpp
+c:\users\宗明\desktop\temp\raytracer-master3\raytracer-master\raytracer\openglrender.cpp(57): warning C4838: 从“double”转换到“GLfloat”需要收缩转换
+c:\users\宗明\desktop\temp\raytracer-master3\raytracer-master\raytracer\openglrender.cpp(58): warning C4838: 从“double”转换到“GLfloat”需要收缩转换
+c:\users\宗明\desktop\temp\raytracer-master3\raytracer-master\raytracer\openglrender.cpp(72): warning C4838: 从“double”转换到“GLfloat”需要收缩转换
+c:\users\宗明\desktop\temp\raytracer-master3\raytracer-master\raytracer\openglrender.cpp(73): warning C4838: 从“double”转换到“GLfloat”需要收缩转换
+c:\users\宗明\desktop\temp\raytracer-master3\raytracer-master\raytracer\openglrender.cpp(88): warning C4838: 从“double”转换到“GLfloat”需要收缩转换
+c:\users\宗明\desktop\temp\raytracer-master3\raytracer-master\raytracer\openglrender.cpp(196): warning C4838: 从“double”转换到“GLfloat”需要收缩转换
+c:\users\宗明\desktop\temp\raytracer-master3\raytracer-master\raytracer\openglrender.cpp(197): warning C4838: 从“double”转换到“GLfloat”需要收缩转换
+c:\users\宗明\desktop\temp\raytracer-master3\raytracer-master\raytracer\openglrender.cpp(226): warning C4838: 从“double”转换到“GLfloat”需要收缩转换
+c:\users\宗明\desktop\temp\raytracer-master3\raytracer-master\raytracer\openglrender.cpp(227): warning C4838: 从“double”转换到“GLfloat”需要收缩转换
+  RayTracer.cpp
+c:\users\宗明\desktop\temp\raytracer-master3\raytracer-master\raytracer\raytracer.cpp(13): warning C4005: “INFINITY”: 宏重定义
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(78): note: 参见“INFINITY”的前一个定义
+c:\users\宗明\desktop\temp\raytracer-master3\raytracer-master\raytracer\raytracer.cpp(33): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+c:\users\宗明\desktop\temp\raytracer-master3\raytracer-master\raytracer\raytracer.cpp(41): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+c:\users\宗明\desktop\temp\raytracer-master3\raytracer-master\raytracer\raytracer.cpp(42): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+c:\users\宗明\desktop\temp\raytracer-master3\raytracer-master\raytracer\raytracer.cpp(82): warning C4804: “>”: 在操作中使用类型“bool”不安全
+c:\users\宗明\desktop\temp\raytracer-master3\raytracer-master\raytracer\raytracer.cpp(83): warning C4305: “参数”: 从“double”到“const float”截断
+c:\users\宗明\desktop\temp\raytracer-master3\raytracer-master\raytracer\raytracer.cpp(99): warning C4305: “参数”: 从“double”到“const float”截断
+c:\users\宗明\desktop\temp\raytracer-master3\raytracer-master\raytracer\raytracer.cpp(106): warning C4101: “spec”: 未引用的局部变量
+c:\users\宗明\desktop\temp\raytracer-master3\raytracer-master\raytracer\raytracer.cpp(104): warning C4101: “tempDot”: 未引用的局部变量
+  正在生成代码...
+  RayTracer.vcxproj -> C:\Users\宗明\Desktop\temp\RayTracer-master3\RayTracer-master\Debug\RayTracer.exe
+  RayTracer.vcxproj -> C:\Users\宗明\Desktop\temp\RayTracer-master3\RayTracer-master\Debug\RayTracer.pdb (Full PDB)

@@ -1,0 +1,104 @@
+<scene>
+	<resolution width="960" height="640"/>
+
+	<camera>
+		<specs fov="75"/>
+	</camera>
+
+
+	<lights>
+		<light>
+			<position x="0" y="9" z="-15.0"/>
+			<color r="1.0" g="1.0" b="1.0"/>
+		</light>
+		<light>
+			<position x="0" y="9" z="-25.0"/>
+			<color r="1.0" g="1.0" b="1.0"/>
+		</light>
+	</lights>
+
+	<objects>
+
+		<planes>
+			<plane>
+				<point x="0.0" y="-10.0" z="0.0"/>
+				<normal x="0.0" y="10.0" z="0.0"/>
+				<color r="1.0" g="1.0" b="1.0" />
+				<specs ref="0" diff="0.8" ambi="0.1" spec="0.2"/>
+			</plane>
+			<plane>
+				<point x="0.0" y="10.0" z="0.0"/>
+				<normal x="0.0" y="-10.0" z="0.0"/>
+				<color r="1.0" g="1.0" b="1.0" />
+				<specs ref="0" diff="0.8" ambi="0.1" spec="0.2"/>
+			</plane>
+			<plane>
+				<point x="0.0" y="0.0" z="-30.0"/>
+				<normal x="0.0" y="0.0" z="10.0"/>
+				<color r="1.0" g="1.0" b="1.0" />
+				<specs ref="0" diff="0.8" ambi="0.1" spec="0.2"/>
+			</plane>
+			<plane>
+				<point x="15.0" y="0.0" z="0.0"/>
+				<normal x="-10.0" y="0.0" z="0.0"/>
+				<color r="0.0" g="0.0" b="1.0" />
+				<specs ref="0" diff="0.8" ambi="0.1" spec="0.2"/>
+			</plane>
+			<plane>
+				<point x="-15.0" y="0.0" z="0.0"/>
+				<normal x="10.0" y="0.0" z="0.0"/>
+				<color r="1.0" g="0.0" b="0.0" />
+				<specs ref="0" diff="0.8" ambi="0.1" spec="0.2"/>
+			</plane>
+		</planes>
+
+		<spheres>
+			<sphere radius="3.0">
+				<center x="-6.0" y="-8.0" z="-20.0"/>
+				<color r="0.0" g="0.0" b="0.0" />
+				<specs ref="1" diff="0.8" ambi="0.1" spec="0.8"/>
+			</sphere>
+			<sphere radius="2.0">
+				<center x="0.0" y="-8.0" z="-15.0"/>
+				<color r="0.0" g="0.0" b="0.0" />
+				<specs ref="1" diff="0.8" ambi="0.1" spec="0.1"/>
+			</sphere>
+			<sphere radius="2.0">
+				<center x="8.0" y="-8.0" z="-20.0"/>
+				<color r="0.5" g="0.8" b="0.2" />
+				<specs ref="0" diff="0.8" ambi="0.1" spec="0.8"/>
+			</sphere>
+		</spheres>
+
+
+		<triangles>
+
+			<triangle>
+				<point x="4" y="0" z="-25.0"/>
+				<point x="9" y="-10" z="-25.0"/>
+				<point x="4" y="-10" z="-20.0"/>
+				<color r="0.94" g="0.75" b="0.31"/>
+				<specs ref="0" diff="0.8" ambi="0.1" spec="0.2"/>
+			</triangle>
+
+			<triangle>
+				<point x="4" y="0" z="-25.0"/>
+				<point x="4" y="-10" z="-20.0"/>
+				<point x="-1" y="-10.0" z="-25.0"/>
+				<color r="0.0" g="0.0" b="0.0"/>
+				<specs ref="0" diff="1" ambi="0.1" spec="0.2"/>
+			</triangle>
+
+			<triangle>
+				<point x="4" y="0" z="-25.0"/>
+				<point x="-1" y="-10.0" z="-25.0"/>
+				<point x="9" y="-10" z="-25.0"/>
+				<color r="0.94" g="0.75" b="0.31"/>
+				<specs ref="0" diff="1" ambi="0.1" spec="0.2"/>
+			</triangle>
+
+		</triangles>
+
+	</objects>
+
+</scene>
